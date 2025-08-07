@@ -17,7 +17,7 @@ TARGET_CHANNEL_NAME = "wordlebotco"
 
 @client.event
 async def on_ready():
-    print(f'✅ Logged in as {client.user}')
+    print(f'Logged in as {client.user}')
 
 @client.event
 async def on_message(message):
